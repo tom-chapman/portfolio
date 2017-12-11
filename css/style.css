@@ -1,0 +1,209 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: #121315;
+    background: url(../img/90H.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
+    zoom: 1;
+	
+}
+
+#wrapper {
+	background-color: #121315;
+	width: 900px;
+	
+}
+
+header {
+    position: fixed;
+    width:200px;
+    text-align: right;
+    float: left;
+}
+
+header h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	color: white;
+	text-align: right;
+	padding-top:70px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    padding-top:70px;
+    padding-bottom: 50px;
+}
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li a {
+    display: inline-block;
+    width: 150px;
+    padding-top: 32px;
+    color: #3DA6C0;
+    text-decoration: none; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;   
+    
+}
+
+.main {
+	margin-left: 260px;
+	padding-right: 100px;
+    padding-top: 60px;
+    display: block;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+	line-height: 20px;
+	background-color: #121315;
+    
+}
+
+.main h1 {
+	font-size: 50px;
+	line-height: 1.4em;
+	margin: 0px 0px 20px 0px;
+	padding: 0;
+	text-transform:lowercase;
+	font-weight:100;	
+}
+
+.main h1 strong {
+	font-size: 86px;	
+	line-height: 1.4em;
+}
+
+span {
+	color: #8bb2bc;
+	font-size:18px;
+	font-weight:normal;
+	line-height:1.2em;
+	margin:28px 0px 0px 0px;	
+}
+
+.work h3 {
+	display: inline;
+	position: absolute;
+	margin: 58px 0 20px -95px;
+	width: 150px;
+	text-transform: uppercase;
+	text-align: right;
+	-ms-transform: rotate(-9deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+	
+}
+
+.portfolio h3 {
+	font-size: 42px;
+	font-weight: 100;
+	color: #3da8c3;
+}
+
+
+.portfolio img {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.services h3 {
+	display: inline;
+	position: absolute;
+	margin: 58px 0 20px -95px;
+	width:150px;
+	text-transform: uppercase;
+	text-align: right;
+	-ms-transform: rotate(-9deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+	
+}
+
+.my-services h3 {
+	font-size: 42px;
+	font-weight: 100;
+	color: #3da8c3;
+}
+
+.my-skills-summary {
+	font-size: 42px;
+	font-weight: 100;
+	color: #3da8c3;
+}
+
+.about h3 {
+	display: inline;
+	position: absolute;
+	margin: 58px 0 20px -95px;
+	width: 150px;
+	text-transform: uppercase;
+	text-align: right;
+	-ms-transform: rotate(-9deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+	
+}
+
+.something-about h3 {
+	font-size: 42px;
+	font-weight: 100;
+	color: #3da8c3;
+}
+
+
+.contact-me h3 {
+	font-size: 42px;
+	font-weight: 100;
+	color: #3da8c3;
+}
+footer {
+	padding-bottom: 400px;
+}
+
+	
+
+/* MODAL POPUP STYLE */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #3DA6C0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #61D8D8;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    
+    padding: 20px;
+}
